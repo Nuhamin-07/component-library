@@ -103,6 +103,7 @@ a {
 
 .main-container {
   display: flex;
+  margin-left: -4em;
 }
 
 .content-container {
