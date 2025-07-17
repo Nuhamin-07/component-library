@@ -3,6 +3,7 @@
   padding: 2rem;
   box-sizing: border-box;
   margin: 20px auto;
+  overflow-x: hidden;
 }
 
 .header {
