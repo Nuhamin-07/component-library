@@ -96,13 +96,14 @@ a {
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 20px;
-  width: 90%;
+  width: 80%;
   padding: 1em;
   border-radius: 10px;
 }
 
 .main-container {
   display: flex;
+  justify-content: center;
   margin-left: -2em;
 }
 
