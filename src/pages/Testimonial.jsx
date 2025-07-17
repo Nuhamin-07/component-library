@@ -10,22 +10,25 @@ export default function Testimonial() {
   const name = "May Andersons";
   const role = "Workcation, CTO";
   return (
-    <div className="test-container">
-      <TestimonialWithImage
-        image={client}
-        icon={
-          <FontAwesomeIcon className="testimonial-icon" icon={faQuoteLeft} />
-        }
-        description={description}
-        name={name}
-        role={role}
-      />
-      <TestimonialWithNoImage
-        icon={<FontAwesomeIcon className="second-icon" icon={faHouseFlag} />}
-        description={description}
-        name={name}
-        role={role}
-      />
-    </div>
+    <>
+      <h1>Testimonials</h1>
+      <div className="test-container">
+        <TestimonialWithImage
+          image={client}
+          icon={
+            <FontAwesomeIcon className="testimonial-icon" icon={faQuoteLeft} />
+          }
+          description={description}
+          name={name}
+          role={role}
+        />
+        <TestimonialWithNoImage
+          icon={<FontAwesomeIcon className="second-icon" icon={faHouseFlag} />}
+          description={description}
+          name={name}
+          role={role}
+        />
+      </div>
+    </>
   );
 }
