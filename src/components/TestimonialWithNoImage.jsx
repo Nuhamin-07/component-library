@@ -14,7 +14,7 @@ export default function TestimonialWithNoImage({
       </div>
       <p>{description}</p>
       <p>
-        {name} /<span>{role}</span>
+        {name} /<span className="role">{role}</span>
       </p>
     </div>
   );
