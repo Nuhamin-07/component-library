@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faHouseFlag } from "@fortawesome/free-solid-svg-icons";
 import TestimonialWithImage from "../components/TestimonialWithImage";
 import TestimonialWithNoImage from "../components/TestimonialWithNoImage";
-import Client from "../assets/Client.jpg";
+import client from "../assets/Client.jpg";
 
 export default function Testimonial() {
   const description =
@@ -12,7 +12,7 @@ export default function Testimonial() {
   return (
     <div className="test-container">
       <TestimonialWithImage
-        image={Client}
+        image={client}
         icon={
           <FontAwesomeIcon className="testimonial-icon" icon={faQuoteLeft} />
         }
